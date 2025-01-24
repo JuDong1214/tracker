@@ -1,8 +1,8 @@
-import Calendar from './Calendar Page/calendar.jsx';
+import BigCalendar from './Calendar Page/calendar.jsx';
 
 function App() {
   return (
-    <Calendar/>
+    <BigCalendar/>
   );
 }
 
