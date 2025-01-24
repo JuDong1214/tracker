@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@cloudscape-design/components": "^3.0.874",
+    "@cloudscape-design/components": "^3.0.876",
     "@syncfusion/ej2-react-calendars": "^28.1.37",
     "cra-template": "1.2.0",
     "react": "^18.3.1",
