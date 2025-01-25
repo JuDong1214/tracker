@@ -1,0 +1,52 @@
+/* Targeting awsui_root_1ykar_13z93_180 */
+.awsui_root_1ykar_13z93_180 {
+    margin: 0 auto; /* Center it horizontally */
+
+    position: absolute; /* Allows for positioning relative to the viewport */
+    top: 50%; /* Position it 50% from the top of the viewport */
+    left: 50%; /* Position it 50% from the left of the viewport */
+    transform: translate(-50%, -75%) scale(2.9, 2.7);
+}
+
+
+/* Increase the size of the calendar grid cells */
+.awsui_calendar-grid-cell_1ykar_13z93_253 {
+    font-size: .8rem; /* Makes date text larger */
+    transform: scale(1, 1);
+}
+
+.awsui_calendar-grid_1ykar_13z93_241 {
+    transform: scale(1, 1);
+    padding: -20px; 
+}
+
+/* Use media queries to adjust scaling on different screen sizes */
+@media (max-width: 1200px) {
+  .awsui_root_1ykar_13z93_180 {
+      transform: translate(-50%, -60%) scale(2.2, 2.2); /* Adjust for medium screens */
+  }
+
+  .awsui_calendar-grid-cell_1ykar_13z93_253 {
+      font-size: 1.8vw; /* Adjust for medium screens */
+  }
+}
+
+@media (max-width: 700px) {
+  .awsui_root_1ykar_13z93_180 {
+      transform: translate(-50%, -50%) scale(1, 1); /* Adjust for smaller screens */
+  }
+
+  .awsui_calendar-grid-cell_1ykar_13z93_253 {
+      font-size: 2.5vw; /* Adjust for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .awsui_root_1ykar_13z93_180 {
+      transform: translate(-50%, -50%) scale(1, 1); /* Adjust for extra small screens */
+  }
+
+  .awsui_calendar-grid-cell_1ykar_13z93_253 {
+      font-size: 3vw; /* Adjust for extra small screens */
+  }
+}
